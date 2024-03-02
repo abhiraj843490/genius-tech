@@ -1,0 +1,28 @@
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -45px;
+}
+
+.sliderimg{
+    display: block;
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .img {
+        height: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .img {
+        height: 40%;
+    }
+}

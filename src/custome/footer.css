@@ -1,0 +1,25 @@
+.footer{
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    margin-top: auto;
+    /* padding: 1px; */
+}
+
+.foot h2 {
+    color: rgb(255, 255, 255);
+
+}
+.cursive-text{
+    font-family: cursive;
+}
+
+
+.foot p {
+    color: rgb(198, 198, 206);
+}
+@media screen and (max-width: 400px) {
+    .cursive-text {
+        font-size: 20px;
+    }
+
+}
