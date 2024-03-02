@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/genius-tech/static/css/main.b9434de7.css",
-    "main.js": "/genius-tech/static/js/main.fcced6e8.js",
+    "main.css": "/genius-tech/static/css/main.b4e7771a.css",
+    "main.js": "/genius-tech/static/js/main.d3a52d43.js",
     "static/js/787.869de754.chunk.js": "/genius-tech/static/js/787.869de754.chunk.js",
     "static/media/03.jpg": "/genius-tech/static/media/03.490d2f3ec948f85713ca.jpg",
     "static/media/06.jpg": "/genius-tech/static/media/06.4ef5bdfb03a4a8fe7bde.jpg",
@@ -27,12 +27,12 @@
     "index.html": "/genius-tech/index.html",
     "static/media/grwth.svg": "/genius-tech/static/media/grwth.870ab48f19dc75421ea6bfbc22605098.svg",
     "static/media/fb.svg": "/genius-tech/static/media/fb.3e4695c3d5aa138b50f8c4acf58a37ab.svg",
-    "main.b9434de7.css.map": "/genius-tech/static/css/main.b9434de7.css.map",
-    "main.fcced6e8.js.map": "/genius-tech/static/js/main.fcced6e8.js.map",
+    "main.b4e7771a.css.map": "/genius-tech/static/css/main.b4e7771a.css.map",
+    "main.d3a52d43.js.map": "/genius-tech/static/js/main.d3a52d43.js.map",
     "787.869de754.chunk.js.map": "/genius-tech/static/js/787.869de754.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9434de7.css",
-    "static/js/main.fcced6e8.js"
+    "static/css/main.b4e7771a.css",
+    "static/js/main.d3a52d43.js"
   ]
 }
