@@ -29,7 +29,7 @@ function About() {
             <b>Dharmendra Kumar</b>,
           </ul>
           I'm <b>Dharmendra Kumar, </b>an experienced educator with over{" "}
-          <b>2+ years</b> of dedicated teaching experience. My journey in the
+          <b>3+ years</b> of dedicated teaching experience. My journey in the
           field of education has equipped me with a strong grasp of both
           practical and theoretical concepts, which I believe are crucial for
           fostering effective learning environments.
@@ -56,16 +56,16 @@ function About() {
       </div>
 
       <div className="intro">
-        <div className="about-section">
+        {/* <div className="about-section">
           <h1>Intro with me</h1>
-        </div>
+        </div> */}
 
-        <h2 style={{ textAlign: "center" }}>Our Team</h2>
+        <h2 style={{ textAlign: "center" }}>Our Leads</h2>
 
         <div className="row">
           <div className="column">
             <div className="about-card">
-              <img src={dhramendra} alt="dhramendra" style={{ width: "50%" }} />
+              <img src={dhramendra} alt="dhramendra" style={{ width: "50%", borderRadius: "8px" }} />
               <div className="container">
                 <h2>Dhramendra Kumar</h2>
                 <p className="title">Founder & Director</p>
@@ -91,7 +91,7 @@ function About() {
 
           <div className="column">
             <div className="about-card">
-              <img src={dhramendra} alt="Mike" style={{ width: "50%" }} />
+              <img src={dhramendra} alt="Mike" style={{ width: "50%", borderRadius: "8px" }} />
               <div className="container">
                 <h2>Dhramendra Kumar</h2>
                 <p className="title">Teacher (3+ years)</p>
@@ -117,7 +117,7 @@ function About() {
 
           <div className="column">
             <div className="about-card">
-              <img src={abhi} alt="Abhiraj" style={{ width: "50%" }} />
+              <img src={abhi} alt="Abhiraj" style={{ width: "50%", borderRadius: "8px" }} />
               <div className="container">
                 <h2>Abhiraj Kumar</h2>
                 <p className="title">Principal</p>

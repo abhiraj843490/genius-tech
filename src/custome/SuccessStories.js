@@ -1,7 +1,7 @@
 import "./successStories.css";
-import dca from "./theames/3.jpg";
-import bn from "./theames/5.jpg";
-import out from "./theames/4.jpg";
+import dca from "./theames/3.jpeg";
+import bn from "./theames/5.jpeg";
+import out from "./theames/4.jpeg";
 function SuccessStories() {
   return (
     <div className="success">

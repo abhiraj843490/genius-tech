@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import logoImg from "./theames/logo.jpg";
+import logoImg from "./theames/logo.png";
 import "./title.css";
 
 function TitlePage() {
@@ -13,11 +13,11 @@ function TitlePage() {
           </Link>
         </div>
 
-        <div className="about">
-          <NavLink to="/course" style={{ textDecoration: "none" }}>
+        <div className="navlink">
+          <NavLink  to="/course"  className={({ isActive }) => (isActive ? "active" : "inactive")}>
             Courses
           </NavLink>
-          <NavLink to="/about" style={{ textDecoration: "none" }}>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "inactive")}>
             About
           </NavLink>
           {/* <NavLink to="/careers" style={{ textDecoration: "none" }}>
