@@ -1,9 +1,17 @@
-import React from "react";
+import React,{useState} from "react";
 import "./about.css";
 import dhramendra from "./theames/dh.jpg";
 import abhi from "./theames/av.jpg";
+import ChatBox from './ChatBox';
 
 function About() {
+
+  const [isChatOpen, setIsChatOpen] = useState(false);
+
+  const toggleChatBox = () => {
+    setIsChatOpen((prev) => !prev);
+  };
+
   return (
     <div className="abt">
       <div className="card-1">
@@ -142,6 +150,12 @@ function About() {
           </div>
         </div>
       </div>
+
+      {/* <div className="chat-logo" onClick={toggleChatBox} style={{ cursor: "pointer" }}>
+        <i className="fas fa-comments" style={{ fontSize: '40px', color: 'white' }}></i>
+      </div>
+
+      {isChatOpen && <ChatBox onClose={toggleChatBox} />} */}
     </div>
   );
 }

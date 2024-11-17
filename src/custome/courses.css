@@ -1,43 +1,19 @@
-.abt{
-    margin-top: 124px;
-}
-.courses {
-    padding: 1rem;
-    background-color: rgb(160, 180, 190);
-    margin: 1rem auto;
-    width: 50rem;
-    max-width: 95%;
-    border-radius: 30px;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-    color: black;
-
-}
-html {
-    box-sizing: border-box;
+.abt {
+    margin-top: 104px;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-.column1 {
-    float: left;
-    width: 25%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-.column1:hover img {
-    transform: scale(1.1);
-}
-
-.about-course {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-}
 .container-course {
     padding: 0 16px;
+}
+
+.course {
+    padding: 20px 40px;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
 }
 
 .container-course::after,
@@ -48,7 +24,80 @@ html {
 }
 
 .title {
-    color: grey;
+    color: rgb(128, 128, 128);
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s, background-color 0.6s;
+    /* text-align: center; */
+    /* transition: transform 0.6s; */
+    transform-style: preserve-3d;
+}
+
+/* .flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  } */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-front {
+    /* background-color: #090c0bd8; */
+    color: #424242;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.flip-card-front > img {
+    border-radius: 10px;
+}
+
+.flip-card-back {
+    background-color: #f3f5f4d8;
+    color: rgb(22, 20, 22);
+    transform: rotateY(180deg);
+    padding: 10px 15px;
+}
+
+/* Card container styles */
+.column1 {
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.container-course {
+    padding: 16px;
+}
+
+/* For responsiveness */
+@media screen and (max-width: 950px) {
+    .row1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -56,31 +105,16 @@ html {
         width: 100%;
         display: block;
     }
-}
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    .row1 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
 }
 
-.modal-content {
-    position: relative;
-    background-color: white;
-    padding: 20px;
-    max-width: 600px;
-    width: 100%;
-    text-align: center;
-}
-
-.close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
+@media screen and (max-width: 550px) {
+    .row1 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }

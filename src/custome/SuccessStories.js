@@ -13,7 +13,7 @@ function SuccessStories() {
             alt="dca"
             style={{ width: "100%", height: "300px", transition: ".5s ease" }}
           />
-          <div class="centered">Teacher's day celebration </div>
+          {/* <div class="centered">Teacher's day celebration </div> */}
         </div>
 
         <div className="col">
@@ -22,7 +22,7 @@ function SuccessStories() {
             alt="dca"
             style={{ width: "100%", height: "300px", transition: ".5s ease" }}
           />
-          <div class="centered">Genius tech family</div>
+          {/* <div class="centered">Genius tech family</div> */}
         </div>
         <div className="col">
           <img
@@ -30,7 +30,7 @@ function SuccessStories() {
             alt="dca"
             style={{ width: "100%", height: "300px", transition: ".5s ease" }}
           />
-          <div class="centered">We are all togather</div>
+          {/* <div class="centered">We are all togather</div> */}
         </div>
       </div>
     </div>
