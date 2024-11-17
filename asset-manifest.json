@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/genius-tech/static/css/main.b4e7771a.css",
-    "main.js": "/genius-tech/static/js/main.d3a52d43.js",
+    "main.css": "/genius-tech/static/css/main.38f1a9c7.css",
+    "main.js": "/genius-tech/static/js/main.edcadf7c.js",
     "static/js/787.869de754.chunk.js": "/genius-tech/static/js/787.869de754.chunk.js",
-    "static/media/03.jpg": "/genius-tech/static/media/03.490d2f3ec948f85713ca.jpg",
     "static/media/06.jpg": "/genius-tech/static/media/06.4ef5bdfb03a4a8fe7bde.jpg",
+    "static/media/logo.png": "/genius-tech/static/media/logo.8cf0956d3f05837244ba.png",
+    "static/media/4.jpeg": "/genius-tech/static/media/4.5784480fdc7607016cf4.jpeg",
+    "static/media/5.jpeg": "/genius-tech/static/media/5.f353cd94a9774f2c4912.jpeg",
+    "static/media/3.jpeg": "/genius-tech/static/media/3.3888afdc9bb533d59670.jpeg",
     "static/media/04.jpg": "/genius-tech/static/media/04.1ac42060597a8bbd282f.jpg",
     "static/media/05.jpg": "/genius-tech/static/media/05.925985bab1b81fe6f4fa.jpg",
-    "static/media/3.jpg": "/genius-tech/static/media/3.4d1c703b86519a811e31.jpg",
-    "static/media/4.jpg": "/genius-tech/static/media/4.d6adff396a14e34787ce.jpg",
-    "static/media/002.jpg": "/genius-tech/static/media/002.62858d7fde39043f9a32.jpg",
-    "static/media/logo.jpg": "/genius-tech/static/media/logo.9193999c0c2cdfdc7de7.jpg",
     "static/media/adv.png": "/genius-tech/static/media/adv.9ecfbeb9c56052f0d2de.png",
-    "static/media/5.jpg": "/genius-tech/static/media/5.cf6cc527c17f268e9f71.jpg",
     "static/media/av.jpg": "/genius-tech/static/media/av.c1be9b200eb3763c6098.jpg",
     "static/media/dh.jpg": "/genius-tech/static/media/dh.f110c49d4bd5555e8b90.jpg",
     "static/media/dtp.jpg": "/genius-tech/static/media/dtp.4d1bf37854d5177dfba2.jpg",
@@ -27,12 +25,12 @@
     "index.html": "/genius-tech/index.html",
     "static/media/grwth.svg": "/genius-tech/static/media/grwth.870ab48f19dc75421ea6bfbc22605098.svg",
     "static/media/fb.svg": "/genius-tech/static/media/fb.3e4695c3d5aa138b50f8c4acf58a37ab.svg",
-    "main.b4e7771a.css.map": "/genius-tech/static/css/main.b4e7771a.css.map",
-    "main.d3a52d43.js.map": "/genius-tech/static/js/main.d3a52d43.js.map",
+    "main.38f1a9c7.css.map": "/genius-tech/static/css/main.38f1a9c7.css.map",
+    "main.edcadf7c.js.map": "/genius-tech/static/js/main.edcadf7c.js.map",
     "787.869de754.chunk.js.map": "/genius-tech/static/js/787.869de754.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4e7771a.css",
-    "static/js/main.d3a52d43.js"
+    "static/css/main.38f1a9c7.css",
+    "static/js/main.edcadf7c.js"
   ]
 }
