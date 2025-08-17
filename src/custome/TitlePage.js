@@ -20,9 +20,9 @@ function TitlePage() {
           <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "inactive")}>
             About
           </NavLink>
-          {/* <NavLink to="/careers" style={{ textDecoration: "none" }}>
-            Careers
-          </NavLink> */}
+          <NavLink to="/library" className={({ isActive }) => (isActive ? "active" : "inactive")}>
+            Library
+          </NavLink>
         </div>
       </div>
     </>

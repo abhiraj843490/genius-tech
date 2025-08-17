@@ -5,8 +5,9 @@ import HomePage from "./custome/HomePage";
 import About from "./custome/About";
 import TitlePage from "./custome/TitlePage";
 import Courses from "./custome/Courses";
-import Careers from "./custome/Careers";
 import CourseList from "./custome/CouseList";
+import LoginPage from "./custome/LoginPage";
+import DashboardPage from "./custome/DashboardPage";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           <Route path="/genius-tech" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/course" element={<Courses />} />
-          <Route path="/careers" element={<Careers />} />
+          <Route path="/library" element={<LoginPage />} />
+           <Route path="/dashboard" element={<DashboardPage />} />
         </Routes>
         <Footer />
       </div>
