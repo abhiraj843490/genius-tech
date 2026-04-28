@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import "./about.css";
-import dhramendra from "./theames/dh.jpg";
-import abhi from "./theames/av.jpg";
+import dhramendra from "./theames/dharmender.jpeg";
+import abhi from "./theames/abhik.jpeg";
 import ChatBox from './ChatBox';
 
 function About() {
@@ -90,7 +90,32 @@ function About() {
                     href="E-mailto:geniustech9162@gmail.com"
                     style={{ textDecoration: "none", color: "black" }}
                   >
-                    E-mail: geniustech9162@gmail.com
+                    ✉ geniustech9162@gmail.com
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="column">
+            <div className="about-card">
+              <img src={abhi} alt="Abhiraj" style={{ width: "50%", borderRadius: "8px" }} />
+              <div className="container">
+                <h2>Abhiraj Kumar</h2>
+                <p className="title">Principal</p>
+                <p>
+                  <i>
+                    <b>
+                      Bachelor of Engineering
+                      <br /> Software Engineer
+                    </b>
+                  </i>
+                </p>
+                <p>
+                  <a
+                    href="E-mailto:geniustech9162@gmail.com"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    ✉ geniustech9162@gmail.com
                   </a>
                 </p>
               </div>
@@ -102,7 +127,7 @@ function About() {
               <img src={dhramendra} alt="Mike" style={{ width: "50%", borderRadius: "8px" }} />
               <div className="container">
                 <h2>Dhramendra Kumar</h2>
-                <p className="title">Teacher (3+ years)</p>
+                <p className="title">Teacher (5+ years)</p>
                 <p>
                   <i>
                     <b>
@@ -116,38 +141,14 @@ function About() {
                     href="E-mailto:geniustech9162@gmail.com"
                     style={{ textDecoration: "none", color: "black" }}
                   >
-                    E-mail: geniustech9162@gmail.com
+                   ✉ geniustech9162@gmail.com
                   </a>
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="column">
-            <div className="about-card">
-              <img src={abhi} alt="Abhiraj" style={{ width: "50%", borderRadius: "8px" }} />
-              <div className="container">
-                <h2>Abhiraj Kumar</h2>
-                <p className="title">Principal</p>
-                <p>
-                  <i>
-                    <b>
-                      Bachelor of Engineering
-                      <br /> Industrial Experience(Software developer)
-                    </b>
-                  </i>
-                </p>
-                <p>
-                  <a
-                    href="E-mailto:geniustech9162@gmail.com"
-                    style={{ textDecoration: "none", color: "black" }}
-                  >
-                    E-mail: geniustech9162@gmail.com
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
 
