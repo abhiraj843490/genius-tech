@@ -68,7 +68,7 @@ function About() {
           <h1>Intro with me</h1>
         </div> */}
 
-        <h2 style={{ textAlign: "center" }}>Our Leads</h2>
+        <h2 style={{ textAlign: "center" }}>Visionaries at Work</h2>
 
         <div className="row">
           <div className="column">

@@ -3,6 +3,7 @@ import "./footer.css";
 import FacebookIcon from "./theames/fb.svg";
 import InstagramIcon from "./theames/ig.svg";
 import WhatsappIcon from "./theames/wp.svg";
+import YoutubeIcon from"./theames/youtube.svg";
 import location from "./theames/loc.svg";
 import foot from "./theames/foot.png";
 import ChatBox from './ChatBox';
@@ -22,11 +23,13 @@ const Footer = () => {
   const facebook =
     "https://www.facebook.com/groups/2286023931549549/?mibextid=NSMWBT";
   const Whatsapp = "https://chat.whatsapp.com/HXy6yAckeNe6dwoy5n0oCO";
+  const Youtube = "https://www.youtube.com/@DsaByAbhi";
 
   const socialMediaLinks = [
     { href: facebook, src: FacebookIcon, alt: "Facebook", title: "Facebook" },
     { href: instagram, src: InstagramIcon, alt: "Instagram", title: "Instagram" },
     { href: Whatsapp, src: WhatsappIcon, alt: "Whatsapp", title: "Whatsapp" },
+    { href: Youtube, src: YoutubeIcon, alt: "Youtube", title: "Youtube" },
   ];
 
   return (
@@ -58,7 +61,7 @@ const Footer = () => {
           </p>
           <p>
             <i>
-              <b>Connect with us</b>
+              <b>Connect & follow us for more information and queries</b>
             </i>
           </p>
         </div>

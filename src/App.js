@@ -5,9 +5,7 @@ import HomePage from "./custome/HomePage";
 import About from "./custome/About";
 import TitlePage from "./custome/TitlePage";
 import Courses from "./custome/Courses";
-import CourseList from "./custome/CouseList";
-import LoginPage from "./custome/LoginPage";
-import DashboardPage from "./custome/DashboardPage";
+
 
 function App() {
   return (
@@ -15,12 +13,10 @@ function App() {
       <div>
         <TitlePage />
         <Routes>
-          <Route path="/course-list" element={<CourseList/>}/>
+          
           <Route path="/genius-tech" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/course" element={<Courses />} />
-          <Route path="/library" element={<LoginPage />} />
-           <Route path="/dashboard" element={<DashboardPage />} />
         </Routes>
         <Footer />
       </div>
