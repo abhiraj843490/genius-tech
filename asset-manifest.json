@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genius-tech/static/css/main.38f1a9c7.css",
-    "main.js": "/genius-tech/static/js/main.edcadf7c.js",
+    "main.js": "/genius-tech/static/js/main.9fe0c201.js",
     "static/js/787.869de754.chunk.js": "/genius-tech/static/js/787.869de754.chunk.js",
     "static/media/06.jpg": "/genius-tech/static/media/06.4ef5bdfb03a4a8fe7bde.jpg",
     "static/media/logo.png": "/genius-tech/static/media/logo.8cf0956d3f05837244ba.png",
@@ -10,27 +10,28 @@
     "static/media/3.jpeg": "/genius-tech/static/media/3.3888afdc9bb533d59670.jpeg",
     "static/media/04.jpg": "/genius-tech/static/media/04.1ac42060597a8bbd282f.jpg",
     "static/media/05.jpg": "/genius-tech/static/media/05.925985bab1b81fe6f4fa.jpg",
+    "static/media/abhik.jpeg": "/genius-tech/static/media/abhik.6c303fb06758c395c4c0.jpeg",
     "static/media/adv.png": "/genius-tech/static/media/adv.9ecfbeb9c56052f0d2de.png",
-    "static/media/av.jpg": "/genius-tech/static/media/av.c1be9b200eb3763c6098.jpg",
-    "static/media/dh.jpg": "/genius-tech/static/media/dh.f110c49d4bd5555e8b90.jpg",
     "static/media/dtp.jpg": "/genius-tech/static/media/dtp.4d1bf37854d5177dfba2.jpg",
+    "static/media/dharmender.jpeg": "/genius-tech/static/media/dharmender.9f710c248028ecc8d2c9.jpeg",
     "static/media/adca.jpg": "/genius-tech/static/media/adca.f3d6768fa69a184f606c.jpg",
     "static/media/cfa.jpg": "/genius-tech/static/media/cfa.286615fd05002816a713.jpg",
     "static/media/dca.jpg": "/genius-tech/static/media/dca.af916b2c578a2798c229.jpg",
-    "static/media/ig.svg": "/genius-tech/static/media/ig.51874212bf1259d81c7eefc455a7da9a.svg",
+    "static/media/ig.svg": "/genius-tech/static/media/ig.7c45683abea86c8c7c7acbce5d11d100.svg",
     "static/media/lrn.svg": "/genius-tech/static/media/lrn.0121cfb3a1c5faef975153b4eab9a440.svg",
-    "static/media/innov.svg": "/genius-tech/static/media/innov.7c5b76d57443158fa476cc44ffd77d6f.svg",
-    "static/media/wp.svg": "/genius-tech/static/media/wp.f2883296e5f8c40374f487bfc522416c.svg",
+    "static/media/innov.svg": "/genius-tech/static/media/innov.6c85d2684094278586e5f98ff9787402.svg",
+    "static/media/wp.svg": "/genius-tech/static/media/wp.b7a1114b802ab424ac3b98ffa7edb6be.svg",
     "static/media/loc.svg": "/genius-tech/static/media/loc.be8d38b3ddeda8b76e3cbfb6aa4f31aa.svg",
     "index.html": "/genius-tech/index.html",
-    "static/media/grwth.svg": "/genius-tech/static/media/grwth.870ab48f19dc75421ea6bfbc22605098.svg",
-    "static/media/fb.svg": "/genius-tech/static/media/fb.3e4695c3d5aa138b50f8c4acf58a37ab.svg",
+    "static/media/youtube.svg": "/genius-tech/static/media/youtube.dd044bf8744fd318a9456b1fafa2e20b.svg",
+    "static/media/grwth.svg": "/genius-tech/static/media/grwth.f99fccde45861969dbe056fa7822f4ad.svg",
+    "static/media/fb.svg": "/genius-tech/static/media/fb.345f1f76c6b231352326e8e4f3314cd7.svg",
     "main.38f1a9c7.css.map": "/genius-tech/static/css/main.38f1a9c7.css.map",
-    "main.edcadf7c.js.map": "/genius-tech/static/js/main.edcadf7c.js.map",
+    "main.9fe0c201.js.map": "/genius-tech/static/js/main.9fe0c201.js.map",
     "787.869de754.chunk.js.map": "/genius-tech/static/js/787.869de754.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38f1a9c7.css",
-    "static/js/main.edcadf7c.js"
+    "static/js/main.9fe0c201.js"
   ]
 }
