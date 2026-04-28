@@ -8,7 +8,7 @@
 }
 .card-1 {
     padding: 1rem;
-    background-color: rgb(160, 180, 190);
+    background-color: rgba(14, 31, 182, 0.671);
     margin: 1rem auto;
     margin-top: 10px;
     width: 50rem;
@@ -70,7 +70,7 @@ html {
 }
 
 .title {
-    color: grey;
+    color: rgb(128, 128, 128);
 }
 
 
@@ -81,3 +81,15 @@ html {
         display: block;
     }
 }
+
+.chat-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  

@@ -5,7 +5,7 @@ import HomePage from "./custome/HomePage";
 import About from "./custome/About";
 import TitlePage from "./custome/TitlePage";
 import Courses from "./custome/Courses";
-import Careers from "./custome/Careers";
+
 
 function App() {
   return (
@@ -13,10 +13,10 @@ function App() {
       <div>
         <TitlePage />
         <Routes>
+          
           <Route path="/genius-tech" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/course" element={<Courses />} />
-          <Route path="/careers" element={<Careers />} />
         </Routes>
         <Footer />
       </div>
